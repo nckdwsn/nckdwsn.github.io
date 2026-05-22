@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Dawson | Chief Revenue Officer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #121212; /* Deep Charcoal */
+            --accent-color: #2ECC71; /* Emerald Green */
+            --secondary-accent: #A2D9CE; /* Mint Frost */
+            --card-bg: #1C1C1C; /* Onyx */
+            --text-primary: #FFFFFF;
+            --text-secondary: #BDC3C7;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Roboto', sans-serif; /* */
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Inter', sans-serif; /* */
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 80px 0;
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .profile-img-container {
+            flex-shrink: 0;
+            border: 4px solid var(--accent-color); /* */
+            border-radius: 12px;
+            overflow: hidden;
+            width: 350px;
+            height: 350px;
+        }
+
+        .profile-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Dashboard Metrics */
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin: 40px 0;
+            border-top: 1px solid #333;
+            padding-top: 40px;
+        }
+
+        .metric {
+            text-align: left;
+        }
+
+        .metric-value {
+            font-family: 'Inter', sans-serif;
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            display: block;
+            text-shadow: 0 0 10px rgba(46, 204, 113, 0.3); /* Soft Glow */
+        }
+
+        .metric-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+
+        /* Core Competency Cards */
+        .competencies {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 60px;
+        }
+
+        .card {
+            background-color: var(--card-bg); /* */
+            padding: 30px;
+            border-radius: 8px;
+            border-bottom: 4px solid transparent;
+            transition: 0.3s;
+        }
+
+        .card:first-child {
+            border-bottom-color: var(--accent-color); /* Highlight first card */
+            background: linear-gradient(135deg, #1c1c1c 0%, #122a1e 100%);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--secondary-accent);
+        }
+
+        .btn {
+            background-color: var(--accent-color);
+            color: #000;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Scaling B2B SaaS ARR from €0 to €230M+ [cite: 7, 45]</h1>
+                <p>NICK DAWSON | VP Sales & Chief Revenue Officer [cite: 1, 2]<br>
+                Driving hyper-growth for cybersecurity organizations across North America, EMEA, and APAC. [cite: 6, 12]</p>
+                <a href="#" class="btn">DOWNLOAD CV (PDF)</a>
+            </div>
+            <div class="profile-img-container">
+                <img src="Nick_Dawson.jpg" alt="Nick Dawson"> 
+            </div>
+        </section>
+
+        <section class="dashboard">
+            <div class="metric">
+                <span class="metric-value">€230M+</span>
+                <span class="metric-label">ARR Managed [cite: 7, 45]</span>
+            </div>
+            <div class="metric">
+                <span class="metric-value">100%</span>
+                <span class="metric-label">Average CAGR [cite: 14, 45]</span>
+            </div>
+            <div class="metric">
+                <span class="metric-value">20,000+</span>
+                <span class="metric-label">Global Customers [cite: 46]</span>
+            </div>
+            <div class="metric">
+                <span class="metric-value">&lt; 8mo</span>
+                <span class="metric-label">Time-to-Market [cite: 38]</span>
+            </div>
+        </section>
+
+        <section class="competencies">
+            <div class="card">
+                <h3>Go-To-Market</h3>
+                <p>Architecting playbooks for the "0 to 1" and "1 to 100" phases of global SaaS growth. [cite: 12, 13]</p>
+            </div>
+            <div class="card">
+                <h3>Strategic Alliances</h3>
+                <p>Forging tier-1 agreements with Google, Microsoft, and IBM to dominate emerging markets. [cite: 8, 51]</p>
+            </div>
+            <div class="card">
+                <h3>Cybersecurity</h3>
+                <p>Deep knowledge of EDR, XDR, Zero Trust, and high-stakes regulatory frameworks. [cite: 28]</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
