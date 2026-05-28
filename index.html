@@ -1,196 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nick Dawson | Chief Revenue Officer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg-color: #121212; /* Deep Charcoal */
-            --accent-color: #2ECC71; /* Emerald Green */
-            --secondary-accent: #A2D9CE; /* Mint Frost */
-            --card-bg: #1C1C1C; /* Onyx */
-            --text-primary: #FFFFFF;
-            --text-secondary: #BDC3C7;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            font-family: 'Roboto', sans-serif; /* */
-            margin: 0;
-            line-height: 1.6;
-        }
-
-        h1, h2, h3 {
-            font-family: 'Inter', sans-serif; /* */
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: -1px;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        /* Hero Section */
-        .hero {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 40px;
-            padding: 80px 0;
-        }
-
-        .hero-content {
-            flex: 1;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            margin-bottom: 20px;
-            line-height: 1.1;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            margin-bottom: 30px;
-        }
-
-        .profile-img-container {
-            flex-shrink: 0;
-            border: 4px solid var(--accent-color); /* */
-            border-radius: 12px;
-            overflow: hidden;
-            width: 350px;
-            height: 350px;
-        }
-
-        .profile-img-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* Dashboard Metrics */
-        .dashboard {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-            margin: 40px 0;
-            border-top: 1px solid #333;
-            padding-top: 40px;
-        }
-
-        .metric {
-            text-align: left;
-        }
-
-        .metric-value {
-            font-family: 'Inter', sans-serif;
-            font-size: 2.5rem;
-            color: var(--accent-color);
-            display: block;
-            text-shadow: 0 0 10px rgba(46, 204, 113, 0.3); /* Soft Glow */
-        }
-
-        .metric-label {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            text-transform: uppercase;
-        }
-
-        /* Core Competency Cards */
-        .competencies {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin-top: 60px;
-        }
-
-        .card {
-            background-color: var(--card-bg); /* */
-            padding: 30px;
-            border-radius: 8px;
-            border-bottom: 4px solid transparent;
-            transition: 0.3s;
-        }
-
-        .card:first-child {
-            border-bottom-color: var(--accent-color); /* Highlight first card */
-            background: linear-gradient(135deg, #1c1c1c 0%, #122a1e 100%);
-        }
-
-        .card h3 {
-            margin-top: 0;
-            color: var(--secondary-accent);
-        }
-
-        .btn {
-            background-color: var(--accent-color);
-            color: #000;
-            padding: 12px 24px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 4px;
-            display: inline-block;
-        }
-
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Nick Dawson — VP Sales, Head of Sales, CRO. Senior B2B Technology Sales Executive specialising in SaaS and Cybersecurity across global markets.">
+<title>Nick Dawson | Chief Revenue Officer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.x/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Scaling B2B SaaS ARR from €0 to €230M+ [cite: 7, 45]</h1>
-                <p>NICK DAWSON | VP Sales & Chief Revenue Officer [cite: 1, 2]<br>
-                Driving hyper-growth for cybersecurity organizations across North America, EMEA, and APAC. [cite: 6, 12]</p>
-                <a href="#" class="btn">DOWNLOAD CV (PDF)</a>
-            </div>
-            <div class="profile-img-container">
-                <img src="Nick_Dawson.jpg" alt="Nick Dawson"> 
-            </div>
-        </section>
+<!-- NAV -->
+<header class="nav">
+  <span class="nav-logo">Nick <em>Dawson</em></span>
+  <nav aria-label="Primary">
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Profile</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="speaking.html">Speaking</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-        <section class="dashboard">
-            <div class="metric">
-                <span class="metric-value">€230M+</span>
-                <span class="metric-label">ARR Managed [cite: 7, 45]</span>
-            </div>
-            <div class="metric">
-                <span class="metric-value">100%</span>
-                <span class="metric-label">Average CAGR [cite: 14, 45]</span>
-            </div>
-            <div class="metric">
-                <span class="metric-value">20,000+</span>
-                <span class="metric-label">Global Customers [cite: 46]</span>
-            </div>
-            <div class="metric">
-                <span class="metric-value">&lt; 8mo</span>
-                <span class="metric-label">Time-to-Market [cite: 38]</span>
-            </div>
-        </section>
-
-        <section class="competencies">
-            <div class="card">
-                <h3>Go-To-Market</h3>
-                <p>Architecting playbooks for the "0 to 1" and "1 to 100" phases of global SaaS growth. [cite: 12, 13]</p>
-            </div>
-            <div class="card">
-                <h3>Strategic Alliances</h3>
-                <p>Forging tier-1 agreements with Google, Microsoft, and IBM to dominate emerging markets. [cite: 8, 51]</p>
-            </div>
-            <div class="card">
-                <h3>Cybersecurity</h3>
-                <p>Deep knowledge of EDR, XDR, Zero Trust, and high-stakes regulatory frameworks. [cite: 28]</p>
-            </div>
-        </section>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="hero-tag">// VP Sales &middot; Head of Sales &middot; CRO</p>
+    <h1 class="hero-name">Nick<br><em>Dawson</em></h1>
+    <p class="hero-subtitle">Scaling B2B SaaS ARR from &euro;0 to &euro;230M+ &nbsp;&middot;&nbsp; Cybersecurity &amp; SaaS &nbsp;&middot;&nbsp; Global Markets</p>
+    <p class="hero-summary">Transformational sales leader with 20+ years driving hyper-growth. Scaled Samsung B2B SaaS and Services business from zero to &euro;230M ARR, closed &euro;675M+ in landmark enterprise deals, and built global teams of 200+ across three continents.</p>
+    <div class="cta-row">
+      <a href="Nick_Dawson_CV_01_2026.pdf" class="btn btn-primary" download><i class="ti ti-download"></i> Download CV</a>
+      <a href="speaking.html" class="btn btn-outline"><i class="ti ti-microphone-2"></i> Speaking</a>
+      <a href="projects.html" class="btn btn-outline"><i class="ti ti-briefcase"></i> Projects</a>
+      <a href="https://linkedin.com/in/nick-dawson-01" class="btn btn-outline" target="_blank" rel="noopener"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
     </div>
+    <div class="geo-row">
+      <span class="geo-badge"><span class="geo-dot"></span>North America &middot; 2005&ndash;2014</span>
+      <span class="geo-badge"><span class="geo-dot"></span>Asia Pacific &middot; 2014&ndash;2023</span>
+      <span class="geo-badge"><span class="geo-dot"></span>Europe &middot; 2023&ndash;Present</span>
+    </div>
+  </div>
+  <div class="hero-photo-wrap">
+    <img class="hero-photo" src="Nick_Dawson.jpg" alt="Nick Dawson — Chief Revenue Officer">
+  </div>
+</section>
+
+<!-- DASHBOARD -->
+<section class="dashboard" aria-label="Key metrics">
+  <p class="section-label">// Dashboard</p>
+  <div class="dash-grid">
+    <div class="dash-card">
+      <span class="dash-val">&euro;230M+</span>
+      <span class="dash-sub">ARR Managed</span>
+    </div>
+    <div class="dash-card">
+      <span class="dash-val">100%</span>
+      <span class="dash-sub">Avg. CAGR (Knox)</span>
+    </div>
+    <div class="dash-card">
+      <span class="dash-val">20,000+</span>
+      <span class="dash-sub">Global Customers</span>
+    </div>
+    <div class="dash-card">
+      <span class="dash-val">&lt;&nbsp;8mo</span>
+      <span class="dash-sub">Time-to-Market</span>
+    </div>
+  </div>
+</section>
+
+<!-- CORE COMPETENCIES -->
+<section class="section">
+  <p class="section-label">// Core Competencies</p>
+  <div class="comp-grid">
+    <div class="comp-card featured">
+      <i class="ti ti-trending-up comp-icon"></i>
+      <h3 class="comp-title">Go-To-Market</h3>
+      <p class="comp-body">Architecting playbooks for the &ldquo;0&nbsp;to&nbsp;1&rdquo; and &ldquo;1&nbsp;to&nbsp;100&rdquo; phases of global SaaS growth &mdash; MEDDIC, Challenger, RevOps.</p>
+    </div>
+    <div class="comp-card">
+      <i class="ti ti-world comp-icon"></i>
+      <h3 class="comp-title">Strategic Alliances</h3>
+      <p class="comp-body">Tier-1 agreements with hyperscalers (Google, Microsoft, IBM), MSPs, and Network Operators. Joint Ventures with complementary solution providers.</p>
+    </div>
+    <div class="comp-card">
+      <i class="ti ti-shield-lock comp-icon"></i>
+      <h3 class="comp-title">Cybersecurity</h3>
+      <p class="comp-body">EDR, XDR, Zero Trust, and high-stakes regulatory frameworks (FedRAMP, GDPR, HIPAA).</p>
+    </div>
+    <div class="comp-card">
+      <i class="ti ti-users comp-icon"></i>
+      <h3 class="comp-title">Leadership &amp; Mentorship</h3>
+      <p class="comp-body">Built and led teams of 200+ across EMEA, APAC, and North America. Frequent keynote speaker such as at MWC, SDC, Swiss Cybersecurity Days, VMWorld, and partners conferences.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <p class="section-label">// Professional Experience</p>
+  <div class="timeline">
+
+    <div class="tl-item">
+      <div class="tl-date">Jun 2023<br>&ndash;&nbsp;Present</div>
+      <div class="tl-line"><div class="tl-dot"></div><div class="tl-bar"></div></div>
+      <div class="tl-content">
+        <p class="tl-company">Nextphase Partners &middot; Berlin, Germany</p>
+        <h3 class="tl-role">Chief Growth Officer</h3>
+        <ul class="tl-bullets">
+          <li>GTM architecture and fractional CRO services for mid-to-late-stage technology firms entering European markets</li>
+          <li>Head of BD for LG CNS &mdash; inaugural Americas GTM; first contracts in 8 months, cutting time-to-market by 40%</li>
+          <li>Strategic advisor to Worldia through a &euro;25M Series B focused on revenue predictability</li>
+        </ul>
+        <div class="badge-row">
+          <span class="badge">LG CNS</span>
+          <span class="badge">Worldia</span>
+          <span class="badge">&euro;25M Series B</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date">May 2014<br>&ndash;&nbsp;May 2023</div>
+      <div class="tl-line"><div class="tl-dot"></div><div class="tl-bar"></div></div>
+      <div class="tl-content">
+        <p class="tl-company">Samsung Electronics &middot; Seoul &amp; London</p>
+        <h3 class="tl-role">Global Head of B2B Solutions Strategy &amp; Sales</h3>
+        <ul class="tl-bullets">
+          <li>Scaled Samsung B2B SaaS and Services business from zero to &euro;230M ARR at 100% CAGR &mdash; 20,000+ enterprise and government customers globally</li>
+          <li>Built and led 200+ account executives and 20+ senior leaders across three continents</li>
+          <li>Executive sponsor: &euro;350M contract (750K users) &amp; &euro;325M government contract (1.3M users)</li>
+          <li>Negotiated tier-1 alliances with Google (Android Enterprise), Microsoft, and IBM</li>
+          <li>Secured Gartner &ldquo;Leader&rdquo; status in mobile security for six consecutive years</li>
+        </ul>
+        <div class="badge-row">
+          <span class="badge">&euro;230M ARR</span>
+          <span class="badge">&euro;350M deal</span>
+          <span class="badge">&euro;325M deal</span>
+          <span class="badge">Gartner Leader &times;6</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date">May 2005<br>&ndash;&nbsp;Apr 2014</div>
+      <div class="tl-line"><div class="tl-dot"></div><div class="tl-bar"></div></div>
+      <div class="tl-content">
+        <p class="tl-company">BlackBerry Ltd. &middot; Toronto &amp; New York</p>
+        <h3 class="tl-role">Senior Director, Enterprise &amp; Government Sales</h3>
+        <ul class="tl-bullets">
+          <li>27 consecutive quarters of 100%+ quota attainment</li>
+          <li>12&times; revenue growth over nine years, rising from individual contributor to Senior Director</li>
+          <li>Scaled North American enterprise and government sales team from 4 to 20+ account executives</li>
+        </ul>
+        <div class="badge-row">
+          <span class="badge">27 qtrs 100%+</span>
+          <span class="badge">12&times; revenue growth</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section skills-section">
+  <p class="section-label">// Technical Skills &amp; Ecosystems</p>
+  <div class="pills">
+    <span class="pill hi">Cybersecurity</span>
+    <span class="pill hi">Enterprise SaaS</span>
+    <span class="pill hi">AI Strategy</span>
+    <span class="pill hi">CRM</span>
+    <span class="pill hi">Advocacy</span>
+    <span class="pill">Salesforce</span>
+    <span class="pill">EDR / XDR / Zero Trust</span>
+    <span class="pill">GDPR</span>
+    <span class="pill">FedRAMP</span>
+    <span class="pill">HIPAA</span>
+    <span class="pill">Cloud Security</span>
+    <span class="pill">IAM</span>
+    <span class="pill">Enterprise IoT</span>
+  </div>
+</section>
+
+<!-- LANGUAGES -->
+<section class="section">
+  <p class="section-label">// Languages</p>
+  <div class="lang-grid">
+    <div class="lang-item">
+      <div class="lang-ring">En</div>
+      <span class="lang-name">English</span>
+      <span class="lang-level">Native</span>
+    </div>
+    <div class="lang-item">
+      <div class="lang-ring">Fr</div>
+      <span class="lang-name">French</span>
+      <span class="lang-level">Native</span>
+    </div>
+    <div class="lang-item">
+      <div class="lang-ring">De</div>
+      <span class="lang-name">German</span>
+      <span class="lang-level">Business Proficient</span>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section">
+  <p class="section-label">// Education</p>
+  <div class="edu-row">
+    <div class="edu-icon"><i class="ti ti-school"></i></div>
+    <div>
+      <p class="edu-degree">Bachelor of Arts, Economics</p>
+      <p class="edu-sub">Carleton University &middot; Ottawa, Canada</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<footer class="footer" id="contact">
+  <p class="section-label">// Contact</p>
+  <div class="contact-grid">
+    <a href="mailto:nckdwsn@protonmail.com" class="contact-item">
+      <i class="ti ti-mail"></i><span>nckdwsn@protonmail.com</span>
+    </a>
+    <a href="tel:+4916238502940" class="contact-item">
+      <i class="ti ti-phone"></i><span>+49 162 3850294</span>
+    </a>
+    <span class="contact-item">
+      <i class="ti ti-map-pin"></i><span>Berlin, Germany</span>
+    </span>
+    <a href="https://linkedin.com/in/nick-dawson-01" class="contact-item" target="_blank" rel="noopener">
+      <i class="ti ti-brand-linkedin"></i><span>linkedin.com/in/nick-dawson-01</span>
+    </a>
+  </div>
+  <p class="footer-copy">&copy; 2025 Nick Dawson. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
